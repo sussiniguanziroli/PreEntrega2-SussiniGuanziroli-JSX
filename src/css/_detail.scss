@@ -1,0 +1,46 @@
+.detail {
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.detail-section {
+    width: 103vh;
+    background-color: rgb(161, 121, 20);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.3rem;
+    padding: 1rem;
+    margin: 1.5rem;
+    box-shadow: 1px 0.5px 0.5px 0.5px  $Dorado;
+    color: whitesmoke;
+    p {
+        font-size: larger;
+        
+    }
+    
+    img {
+        width: 50%;
+        border-radius: 1rem;
+        align-self: center;
+    }
+}
+
+.back-button {
+    margin: 1rem;
+    font-size: larger;
+    background-color: whitesmoke;
+    width: fit-content;
+    height: fit-content;
+    border-radius:1rem ;
+    padding: .2rem;
+}
+
+
+
+ion-icon {
+    color: black;
+}

@@ -1,0 +1,22 @@
+.footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/923/567/non_2x/dark-old-wooden-table-texture-background-top-view-free-photo.jpg");
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+
+}
+
+.footer-container {
+    padding: 2rem;
+    margin: 1rem;
+    background-color: bisque;
+    border-radius: 1rem;
+
+    p {
+        color: $main-theme;
+    }
+}

@@ -1,0 +1,54 @@
+.item-list-container {
+    padding: 5rem;
+    background-color: rgb(61, 61, 61);
+    color: whitesmoke;
+    border-radius: 5px;
+    display: grid;
+    min-height: 50vh;
+    border-radius: 1rem;
+    gap: 1.5rem;
+    place-items: center;
+    margin: 2rem;
+    
+}
+
+.items-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    
+}
+
+.producto {
+    background-color: rgb(161, 121, 20);
+    border-radius: 1rem;
+    color: whitesmoke;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    gap: .7rem;
+    h2 {
+        font-weight: 800;
+    }
+
+    img {
+        border-radius: .5rem;
+    }
+
+}
+
+.item-button {
+    background-color: $main-theme;
+    font-size: smaller;
+    align-self: center;
+}
+
+.cargando {
+    font-size: larger;
+    font-weight: 700;
+}

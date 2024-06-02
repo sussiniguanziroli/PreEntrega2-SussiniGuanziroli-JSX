@@ -1,0 +1,937 @@
+[
+    {
+        "id": 1,
+        "name": "Johnnie Walker Black Label",
+        "description": "Un whisky escocés de mezcla de lujo, añejado por 12 años, conocido por su sabor suave y su complejo perfil de sabores.",
+        "price": 45.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Chateau Margaux",
+        "description": "Un vino tinto francés de la región de Burdeos, reconocido mundialmente por su elegancia y complejidad.",
+        "price": 300.00,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "vino",
+            "name": "Vino"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Ron Zacapa 23",
+        "description": "Ron premium de Guatemala, envejecido en una mezcla de barricas de bourbon, jerez y vino Pedro Ximénez.",
+        "price": 60.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "ron",
+            "name": "Ron"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Bombay Sapphire",
+        "description": "Un gin premium de estilo London Dry, conocido por su sabor limpio y equilibrado, con notas de enebro y especias.",
+        "price": 29.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "gin",
+            "name": "Gin"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Jameson Irish Whiskey",
+        "description": "Un whisky irlandés suave y ligero, perfecto para disfrutar solo o en cócteles.",
+        "price": 34.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Santa Margherita Pinot Grigio",
+        "description": "Un vino blanco italiano, fresco y afrutado, ideal para maridar con pescados y mariscos.",
+        "price": 22.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "vino",
+            "name": "Vino"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Glenfiddich 12 Year Old",
+        "description": "Un whisky de malta escocés suave, con notas de pera fresca y roble sutil.",
+        "price": 49.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Havana Club 7 Años",
+        "description": "Ron cubano añejo, con ricos sabores de cacao, vainilla, azúcar moreno y frutas tropicales.",
+        "price": 27.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "ron",
+            "name": "Ron"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Tanqueray No. Ten",
+        "description": "Un gin de alta gama, destilado en pequeños lotes, con notas de cítricos frescos y enebro.",
+        "price": 34.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "gin",
+            "name": "Gin"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Moët & Chandon Brut Impérial",
+        "description": "Champagne francés, icónico y elegante, con un equilibrio perfecto de sabores afrutados y frescos.",
+        "price": 59.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "vino",
+            "name": "Vino"
+        }
+    },
+    {
+        "id": 11,
+        "name": "Macallan 18 Year Old",
+        "description": "Un whisky escocés de malta simple, envejecido en barricas de jerez, con sabores ricos y complejos.",
+        "price": 299.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 12,
+        "name": "Dom Pérignon Vintage",
+        "description": "Un champán vintage prestigioso, conocido por su complejidad y elegancia.",
+        "price": 180.00,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "vino",
+            "name": "Vino"
+        }
+    },
+    {
+        "id": 13,
+        "name": "Bacardi Superior",
+        "description": "Ron blanco clásico, ideal para cócteles como el mojito y el daiquiri.",
+        "price": 18.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "ron",
+            "name": "Ron"
+        }
+    },
+    {
+        "id": 14,
+        "name": "Hendrick's Gin",
+        "description": "Gin premium con infusiones de pepino y rosa, creando un perfil de sabor único y refrescante.",
+        "price": 39.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "gin",
+            "name": "Gin"
+        }
+    },
+    {
+        "id": 15,
+        "name": "Lagavulin 16 Year Old",
+        "description": "Un whisky escocés de Islay, conocido por su fuerte sabor ahumado y turba.",
+        "price": 89.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 16,
+        "name": "Veuve Clicquot Rosé",
+        "description": "Champagne rosado de alta calidad, con sabores de frutas rojas y un final cremoso.",
+        "price": 79.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "vino",
+            "name": "Vino"
+        }
+    },
+    {
+        "id": 17,
+        "name": "Captain Morgan Spiced Rum",
+        "description": "Ron especiado con un sabor distintivo, perfecto para mezclar en cócteles.",
+        "price": 24.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "ron",
+            "name": "Ron"
+        }
+    },
+    {
+        "id": 18,
+        "name": "Beefeater Gin",
+        "description": "Un gin clásico de Londres, conocido por su fuerte sabor a enebro y cítricos.",
+        "price": 22.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "gin",
+            "name": "Gin"
+        }
+    },
+    {
+        "id": 19,
+        "name": "Woodford Reserve Bourbon",
+        "description": "Un bourbon premium de Kentucky, con notas de vainilla, caramelo y especias.",
+        "price": 39.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 20,
+        "name": "Penfolds Grange",
+        "description": "Un vino tinto australiano icónico, conocido por su profundidad y longevidad.",
+        "price": 600.00,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "vino",
+            "name": "Vino"
+        }
+    },
+    {
+        "id": 21,
+        "name": "Mount Gay Black Barrel",
+        "description": "Ron de Barbados, envejecido en barricas de roble para un sabor rico y complejo.",
+        "price": 34.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "ron",
+            "name": "Ron"
+        }
+    },
+    {
+        "id": 22,
+        "name": "Sipsmith London Dry Gin",
+        "description": "Un gin artesanal de Londres, conocido por su equilibrio perfecto de enebro y cítricos.",
+        "price": 35.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "gin",
+            "name": "Gin"
+        }
+    },
+    {
+        "id": 23,
+        "name": "Balvenie DoubleWood 12 Year Old",
+        "description": "Un whisky escocés de malta, madurado en dos tipos de barricas para una complejidad adicional.",
+        "price": 54.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 24,
+        "name": "Louis Roederer Cristal",
+        "description": "Un champán francés de prestigio, conocido por su finura y elegancia.",
+        "price": 250.00,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "vino",
+            "name": "Vino"
+        }
+    },
+    {
+        "id": 25,
+        "name": "Diplomático Reserva Exclusiva",
+        "description": "Ron venezolano de alta calidad, con un perfil de sabor dulce y complejo.",
+        "price": 49.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "ron",
+            "name": "Ron"
+        }
+    },
+    {
+        "id": 26,
+        "name": "Monkey 47 Gin",
+        "description": "Un gin premium alemán, destilado con 47 botánicos, creando un sabor único y complejo.",
+        "price": 49.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "gin",
+            "name": "Gin"
+        }
+    },
+    {
+        "id": 27,
+        "name": "Laphroaig 10 Year Old",
+        "description": "Un whisky escocés de Islay, conocido por su intenso sabor a turba y ahumado.",
+        "price": 59.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 28,
+        "name": "Taittinger Comtes de Champagne Blanc de Blancs",
+        "description": "Un champán francés de alta gama, elaborado solo con uvas Chardonnay.",
+        "price": 199.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "vino",
+            "name": "Vino"
+        }
+    },
+    {
+        "id": 29,
+        "name": "Flor de Caña 18 Year Old",
+        "description": "Ron nicaragüense premium, con un sabor suave y complejo, envejecido durante 18 años.",
+        "price": 52.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "ron",
+            "name": "Ron"
+        }
+    },
+    {
+        "id": 30,
+        "name": "Plymouth Gin",
+        "description": "Un gin inglés tradicional, con un sabor equilibrado y un ligero toque dulce.",
+        "price": 27.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "gin",
+            "name": "Gin"
+        }
+    },
+    {
+        "id": 31,
+        "name": "Glenmorangie Original 10 Year Old",
+        "description": "Un whisky escocés de malta suave y cremoso, con notas de frutas, vainilla y especias.",
+        "price": 40.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 32,
+        "name": "Chateau d'Yquem Sauternes",
+        "description": "Un vino dulce francés de la región de Burdeos, conocido por su elegancia y longevidad.",
+        "price": 400.00,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "vino",
+            "name": "Vino"
+        }
+    },
+    {
+        "id": 33,
+        "name": "Plantation XO 20th Anniversary",
+        "description": "Ron de Barbados, envejecido en barricas de roble para un sabor rico y complejo.",
+        "price": 60.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "ron",
+            "name": "Ron"
+        }
+    },
+    {
+        "id": 34,
+        "name": "Roku Gin",
+        "description": "Un gin japonés artesanal, destilado con seis botánicos japoneses únicos.",
+        "price": 34.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "gin",
+            "name": "Gin"
+        }
+    },
+    {
+        "id": 35,
+        "name": "Yamazaki 12 Year Old",
+        "description": "Un whisky japonés de malta, conocido por su sabor suave y equilibrado.",
+        "price": 149.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 36,
+        "name": "Cakebread Cellars Chardonnay",
+        "description": "Un vino blanco californiano, con sabores frescos y afrutados y un final cremoso.",
+        "price": 39.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "vino",
+            "name": "Vino"
+        }
+    },
+    {
+        "id": 37,
+        "name": "Don Papa Rum",
+        "description": "Ron filipino, envejecido en barricas de roble americano, con un perfil de sabor suave y afrutado.",
+        "price": 39.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "ron",
+            "name": "Ron"
+        }
+    },
+    {
+        "id": 38,
+        "name": "The Botanist Gin",
+        "description": "Un gin artesanal de la isla de Islay, destilado con 22 botánicos locales.",
+        "price": 44.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "gin",
+            "name": "Gin"
+        }
+    },
+    {
+        "id": 39,
+        "name": "Oban 14 Year Old",
+        "description": "Un whisky escocés de malta, conocido por su sabor rico y complejo con notas de frutas secas y especias.",
+        "price": 79.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 40,
+        "name": "Silver Oak Napa Valley Cabernet Sauvignon",
+        "description": "Un vino tinto californiano, conocido por su elegancia y estructura.",
+        "price": 125.00,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "vino",
+            "name": "Vino"
+        }
+    },
+    {
+        "id": 41,
+        "name": "Barceló Imperial",
+        "description": "Ron dominicano de alta calidad, envejecido en barricas de roble americano y francés.",
+        "price": 43.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "ron",
+            "name": "Ron"
+        }
+    },
+    {
+        "id": 42,
+        "name": "Nolet's Silver Dry Gin",
+        "description": "Un gin premium, con un perfil de sabor floral y afrutado, destilado en pequeños lotes.",
+        "price": 49.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "gin",
+            "name": "Gin"
+        }
+    },
+    {
+        "id": 43,
+        "name": "Highland Park 12 Year Old",
+        "description": "Un whisky escocés de malta, con un equilibrio perfecto de notas de miel, frutas y turba.",
+        "price": 49.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 44,
+        "name": "Bollinger Special Cuvée",
+        "description": "Champagne francés, conocido por su estructura y complejidad, con sabores de frutas maduras y especias.",
+        "price": 59.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "vino",
+            "name": "Vino"
+        }
+    },
+    {
+        "id": 45,
+        "name": "Matusalem Gran Reserva 15 Year Old",
+        "description": "Ron dominicano premium, envejecido durante 15 años para un sabor suave y complejo.",
+        "price": 39.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "ron",
+            "name": "Ron"
+        }
+    },
+    {
+        "id": 46,
+        "name": "Four Pillars Rare Dry Gin",
+        "description": "Un gin australiano, conocido por su equilibrio perfecto de botánicos y sabor fresco.",
+        "price": 34.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "gin",
+            "name": "Gin"
+        }
+    },
+    {
+        "id": 47,
+        "name": "Ardbeg 10 Year Old",
+        "description": "Un whisky escocés de Islay, famoso por su fuerte sabor ahumado y turba.",
+        "price": 59.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 48,
+        "name": "Cloudy Bay Sauvignon Blanc",
+        "description": "Un vino blanco neozelandés, conocido por su frescura y sabores vibrantes de frutas tropicales.",
+        "price": 25.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "vino",
+            "name": "Vino"
+        }
+    },
+    {
+        "id": 49,
+        "name": "El Dorado 15 Year Old",
+        "description": "Ron de Guyana, envejecido durante 15 años, con un sabor suave y complejo.",
+        "price": 49.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "ron",
+            "name": "Ron"
+        }
+    },
+    {
+        "id": 50,
+        "name": "Gordon's London Dry Gin",
+        "description": "Un gin clásico de Londres, conocido por su sabor limpio y equilibrado de enebro y cítricos.",
+        "price": 19.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "gin",
+            "name": "Gin"
+        }
+    },
+    {
+        "id": 51,
+        "name": "Talisker 10 Year Old",
+        "description": "Un whisky escocés de la isla de Skye, conocido por su sabor ahumado y picante.",
+        "price": 64.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 52,
+        "name": "Opus One",
+        "description": "Un vino tinto californiano de alta gama, resultado de una colaboración entre los productores de vino franceses y estadounidenses.",
+        "price": 350.00,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "vino",
+            "name": "Vino"
+        }
+    },
+    {
+        "id": 53,
+        "name": "Pampero Aniversario",
+        "description": "Ron venezolano, envejecido en barricas de roble para un sabor rico y suave.",
+        "price": 34.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "ron",
+            "name": "Ron"
+        }
+    },
+    {
+        "id": 54,
+        "name": "Empress 1908 Gin",
+        "description": "Un gin canadiense, conocido por su color azul vibrante y sabor equilibrado de botánicos.",
+        "price": 39.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "gin",
+            "name": "Gin"
+        }
+    },
+    {
+        "id": 55,
+        "name": "Springbank 10 Year Old",
+        "description": "Un whisky escocés de Campbeltown, conocido por su sabor complejo y equilibrado.",
+        "price": 69.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 56,
+        "name": "Bodega Catena Zapata Malbec",
+        "description": "Un vino tinto argentino, conocido por su profundidad de sabor y elegancia.",
+        "price": 24.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "vino",
+            "name": "Vino"
+        }
+    },
+    {
+        "id": 57,
+        "name": "Appleton Estate 12 Year Old Rare Blend",
+        "description": "Ron jamaicano premium, envejecido durante 12 años para un sabor complejo y suave.",
+        "price": 39.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "ron",
+            "name": "Ron"
+        }
+    },
+    {
+        "id": 58,
+        "name": "Gin Mare",
+        "description": "Un gin español, conocido por su uso de botánicos mediterráneos como la oliva arbequina, tomillo y romero.",
+        "price": 36.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "gin",
+            "name": "Gin"
+        }
+    },
+    {
+        "id": 59,
+        "name": "Aberlour 12 Year Old",
+        "description": "Un whisky escocés de malta, conocido por su sabor rico y afrutado con notas de jerez y chocolate.",
+        "price": 49.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 60,
+        "name": "Robert Mondavi Napa Valley Cabernet Sauvignon",
+        "description": "Un vino tinto californiano, conocido por su estructura y profundidad de sabor.",
+        "price": 35.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "vino",
+            "name": "Vino"
+        }
+    },
+    {
+        "id": 61,
+        "name": "Zaya Gran Reserva 16 Year Old",
+        "description": "Ron de Trinidad y Tobago, envejecido durante 16 años para un sabor rico y complejo.",
+        "price": 44.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "ron",
+            "name": "Ron"
+        }
+    },
+    {
+        "id": 62,
+        "name": "Hayman's Old Tom Gin",
+        "description": "Un gin inglés de estilo Old Tom, conocido por su ligero dulzor y perfil de sabor equilibrado.",
+        "price": 28.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "gin",
+            "name": "Gin"
+        }
+    },
+    {
+        "id": 63,
+        "name": "Bruichladdich Classic Laddie",
+        "description": "Un whisky escocés sin turba de la isla de Islay, conocido por su sabor fresco y complejo.",
+        "price": 59.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 64,
+        "name": "Château Lynch-Bages Pauillac",
+        "description": "Un vino tinto francés de Burdeos, conocido por su estructura y longevidad.",
+        "price": 120.00,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "vino",
+            "name": "Vino"
+        }
+    },
+    {
+        "id": 65,
+        "name": "Diplomático Mantuano",
+        "description": "Ron venezolano, conocido por su sabor suave y complejo, ideal para cócteles y disfrutar solo.",
+        "price": 29.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "ron",
+            "name": "Ron"
+        }
+    },
+    {
+        "id": 66,
+        "name": "Tanqueray Rangpur",
+        "description": "Un gin de la casa Tanqueray, destilado con limas Rangpur para un sabor cítrico único.",
+        "price": 32.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "gin",
+            "name": "Gin"
+        }
+    },
+    {
+        "id": 67,
+        "name": "Redbreast 12 Year Old",
+        "description": "Un whisky irlandés de pot still, conocido por su sabor rico y complejo con notas de frutas y especias.",
+        "price": 64.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 68,
+        "name": "Moët & Chandon Dom Pérignon",
+        "description": "Un champán francés de lujo, conocido por su elegancia y complejidad.",
+        "price": 180.00,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "vino",
+            "name": "Vino"
+        }
+    },
+    {
+        "id": 69,
+        "name": "Ron Zacapa Centenario 23",
+        "description": "Ron guatemalteco de alta gama, envejecido mediante el sistema solera para un sabor rico y complejo.",
+        "price": 69.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "ron",
+            "name": "Ron"
+        }
+    },
+    {
+        "id": 70,
+        "name": "Hendrick's Gin",
+        "description": "Un gin escocés premium, destilado con pepino y pétalos de rosa para un sabor único y fresco.",
+        "price": 38.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "gin",
+            "name": "Gin"
+        }
+    },
+    {
+        "id": 71,
+        "name": "Macallan Sherry Oak 12 Year Old",
+        "description": "Un whisky escocés de malta, envejecido en barricas de jerez para un sabor rico y complejo.",
+        "price": 75.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 72,
+        "name": "Veuve Clicquot La Grande Dame",
+        "description": "Un champán francés de prestigio, conocido por su finura y complejidad.",
+        "price": 160.00,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "vino",
+            "name": "Vino"
+        }
+    },
+    {
+        "id": 73,
+        "name": "Rhum Barbancourt 15 Year Old",
+        "description": "Ron haitiano de alta calidad, envejecido durante 15 años para un sabor suave y sofisticado.",
+        "price": 45.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "ron",
+            "name": "Ron"
+        }
+    },
+    {
+        "id": 74,
+        "name": "Glenfiddich 18 Year Old",
+        "description": "Un whisky escocés de malta, envejecido durante 18 años para un sabor rico y complejo.",
+        "price": 99.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 75,
+        "name": "Johnnie Walker Blue Label",
+        "description": "Una mezcla de whiskies escoceses raros y excepcionales, conocido por su suavidad y complejidad.",
+        "price": 199.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "whisky",
+            "name": "Whisky"
+        }
+    },
+    {
+        "id": 76,
+        "name": "Fernet Branca",
+        "description": "Un amaro italiano muy popular en Argentina, a menudo se consume con cola.",
+        "price": 25.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "argento",
+            "name": "Argento"
+        }
+    },
+    {
+        "id": 77,
+        "name": "Branca Menta",
+        "description": "Variante del Fernet Branca con un sabor a menta refrescante.",
+        "price": 27.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "argento",
+            "name": "Argento"
+        }
+    },
+    {
+        "id": 78,
+        "name": "Fernet 1882",
+        "description": "Otra variante del Fernet muy apreciada en Argentina por su sabor equilibrado.",
+        "price": 26.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "argento",
+            "name": "Argento"
+        }
+    },
+    {
+        "id": 79,
+        "name": "Whisky DYC",
+        "description": "Whisky español de sabor suave y dulce, popular en Argentina.",
+        "price": 29.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "argento",
+            "name": "Argento"
+        }
+    },
+    {
+        "id": 80,
+        "name": "Malbec",
+        "description": "Variedad de vino tinto argentina conocida por su sabor afrutado y especiado.",
+        "price": 22.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "argento",
+            "name": "Argento"
+        }
+    },
+    {
+        "id": 81,
+        "name": "Gin Mare",
+        "description": "Un gin español, conocido por su uso de botánicos mediterráneos como la oliva arbequina, tomillo y romero.",
+        "price": 36.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "argento",
+            "name": "Argento"
+        }
+    },
+    {
+        "id": 82,
+        "name": "Old Smuggler",
+        "description": "Whisky escocés de mezcla suave, disfrutado en Argentina por su asequibilidad y sabor.",
+        "price": 24.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "argento",
+            "name": "Argento"
+        }
+    },
+    {
+        "id": 83,
+        "name": "Gancia",
+        "description": "Vermouth italiano que se ha vuelto popular en Argentina, a menudo se bebe solo o en cócteles.",
+        "price": 18.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "argento",
+            "name": "Argento"
+        }
+    },
+    {
+        "id": 84,
+        "name": "Campari",
+        "description": "Amaro italiano conocido por su sabor amargo y su uso en cócteles como el Negroni.",
+        "price": 24.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "argento",
+            "name": "Argento"
+        }
+    },
+    {
+        "id": 85,
+        "name": "Legui",
+        "description": "Licor de hierbas argentino, a menudo consumido solo o en cócteles.",
+        "price": 19.99,
+        "image": "https://placehold.co/150",
+        "category": {
+            "id": "argento",
+            "name": "Argento"
+        }
+    }
+]
