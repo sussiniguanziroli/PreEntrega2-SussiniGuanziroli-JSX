@@ -9,7 +9,7 @@ export const ItemList = ({ productos }) => {
                     productos.map(producto => {
                         return <Item key={producto.id} producto={producto} />
                     })
-                    : <p className='cargando'>...Cargando...</p>
+                    : <div className='gif-carga'></div>
             }
         </div>
     )

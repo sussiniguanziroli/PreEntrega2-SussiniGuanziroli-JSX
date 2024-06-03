@@ -16,7 +16,7 @@ const ItemDetailContainer = () => {
   return (
     <div>{product ? 
         <ItemDetail product={product}/>
-        : <p className='cargando'>Cargando</p>}</div>
+        : <div className='gif-carga'></div> }</div>
   )
 }
 

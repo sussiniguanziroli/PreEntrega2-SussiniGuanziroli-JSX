@@ -9,7 +9,15 @@
     gap: 1.5rem;
     place-items: center;
     margin: 2rem;
-    
+    margin-bottom: 5.1rem;
+    h1 {
+        background-color: gray;
+        color: $Blanco-Apagado;
+        padding: .5rem;
+        width: fit-content;
+        border-radius: 1rem;
+        
+    }
 }
 
 .items-container {
@@ -18,7 +26,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
-    
+    h3 {
+        background-color: $main-theme;
+        padding: .5rem;
+        width: fit-content;
+        border-radius: 1rem;
+    }
+    margin-bottom: 2rem;
 }
 
 .producto {
@@ -30,7 +44,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
     gap: .7rem;
     h2 {
         font-weight: 800;
@@ -38,6 +51,10 @@
 
     img {
         border-radius: .5rem;
+        width: 100%;
+        height: 260px;
+        object-fit: contain;
+        object-position: center;
     }
 
 }
@@ -48,7 +65,16 @@
     align-self: center;
 }
 
-.cargando {
-    font-size: larger;
-    font-weight: 700;
+
+
+.gif-carga {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/ad/YouTube_loading_symbol_3_%28transparent%29.gif");
+    height: 300px;
+    width: 300px;
+    justify-self: center;
+    align-self: center;
+    grid-column: 2;
+    margin-bottom: 2rem;
+    padding: 2rem;
+
 }
