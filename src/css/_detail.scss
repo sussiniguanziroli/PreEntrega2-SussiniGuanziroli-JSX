@@ -45,11 +45,13 @@
     
     img {
         height: 500px;
-        border-radius: 4rem;
+        border-radius: 1rem;
         align-self: center;
         width: 100%;
         object-fit: contain;
         object-position: center;
+        background-color: white;
+        padding: 1rem;
     }
 }
 
